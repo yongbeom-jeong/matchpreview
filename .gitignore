@@ -2,3 +2,22 @@
 .env.*
 **/.env
 **/.env.*
+
+# Python local artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+
+# Runtime data: user-generated posts and databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+**/browse/
+**/article.txt
+**/meta.json
+**/index.html
